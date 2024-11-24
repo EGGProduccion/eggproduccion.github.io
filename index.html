@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estamos trabajando en la web</title>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            /* Fondo oscuro */
+            color: #fff;
+            /* Texto blanco */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 150px;
+            height: auto;
+        }
+
+        main h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 1.2em;
+            color: #b0b0b0;
+            /* Texto gris claro */
+        }
+
+        footer {
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-link {
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .social-link:hover {
+            background-color: #444;
+        }
+
+        .twitter {
+            background-color: #1da1f2;
+            color: #fff;
+        }
+
+        .discord {
+            background-color: #7289da;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Logo" class="logo">
+        </header>
+
+        <main>
+            <h1>Estamos trabajando en la web</h1>
+            <p class="message">Por favor, vuelve pronto para más actualizaciones.</p>
+        </main>
+
+        <footer>
+            <p>Para más información, puedes revisar nuestras redes sociales:</p>
+            <div class="social-links">
+                <a href="https://twitter.com/tuCuenta" target="_blank" class="social-link twitter" rel="noopener">
+                    Twitter (X)
+                </a>
+                <a href="https://discord.gg/tuServidor" target="_blank" class="social-link discord" rel="noopener">
+                    Servidor de Discord
+                </a>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
